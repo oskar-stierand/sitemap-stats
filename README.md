@@ -1,13 +1,14 @@
-Jak ho použít:
+
+How to use it:
 
 python3 sitemap_stats.py https://example.com/sitemap_index.xml
-# nebo bez argumentu - zeptá se interaktivně
+# or no argument - asks interactively
 python3 sitemap_stats.py
 
-Co umí:
+What it can do:
 
-Rekurzivně prochází celý strom sitemap (index → sub-indexy → koncové sitemapy)
-Podporuje gzipované sitemapy (.xml.gz)
-Průběžně vypisuje progress na stderr
-Na konci zobrazí frekvenční tabulku + celkový součet
-Žádné externí závislosti - jen stdlib
+Recursively traverses the entire sitemap tree (index → ​​sub-indexes → final sitemaps)
+Supports gzipped sitemaps (.xml.gz)
+Continuously prints progress to stderr
+Displays frequency table + grand total at the end
+No external dependencies - just stdlib
